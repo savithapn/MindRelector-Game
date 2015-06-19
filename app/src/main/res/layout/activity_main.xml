@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity" android:background="@drawable/layout_orange_bg"
+
+                >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to Play"
+        android:id="@+id/btnInstructions"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:textColor="#ffed7d31"
+        android:background="@drawable/rounded_corners_bg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/btnPlay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:capitalize="none"
+        android:background="@drawable/rounded_corners_bg"
+        android:textColor="#ffed7d31"
+        />
+</RelativeLayout>

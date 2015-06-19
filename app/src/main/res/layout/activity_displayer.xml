@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+              android:animateLayoutChanges="true"
+                tools:context="com.example.savnaray.mindreflection.Ui.Displayer" android:background="@drawable/layout_bg"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageviewDisplay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image23"
+        android:layout_above="@+id/btnShowButton" android:background="@drawable/rounded_corners_bg"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:id="@+id/btnShowButton"
+
+        android:background="@drawable/rounded_corners_orange_bg"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageviewDisplay"
+        android:layout_alignEnd="@+id/imageviewDisplay"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/btnClose"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_corners_orange_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"/>
+</RelativeLayout>
